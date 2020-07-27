@@ -17,10 +17,12 @@ import Home from './components/Home';
 import ChatRoom from './components/ChatRoom';
 
 const router = new VueRouter({
+    mode: 'history',
     routes: [
         {
             path: '/',
-            component: Home
+            component: Home,
+            name: 'home'
         },
         {
             path: '/chats/:id',

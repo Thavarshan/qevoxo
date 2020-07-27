@@ -1,10 +1,54 @@
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.vue',
-    './src/**/*.jsx',
-  ],
   theme: {
+    customForms: theme => ({
+      default: {
+        input: {
+          borderRadius: theme('borderRadius.lg'),
+          backgroundColor: theme('colors.gray.100'),
+          '&:focus': {
+            backgroundColor: theme('colors.white'),
+          }
+        },
+        textarea: {
+            borderRadius: theme('borderRadius.md'),
+            backgroundColor: theme('colors.gray.100'),
+            '&:focus': {
+              backgroundColor: theme('colors.white'),
+            }
+        },
+        select: {
+          borderRadius: theme('borderRadius.md'),
+          boxShadow: theme('boxShadow.none'),
+          backgroundColor: theme('colors.gray.100'),
+          '&:focus': {
+            backgroundColor: theme('colors.white'),
+          }
+        },
+        checkbox: {
+          backgroundColor: theme('colors.gray.100'),
+          width: theme('spacing.6'),
+          height: theme('spacing.6'),
+        },
+        radio: {
+          backgroundColor: theme('colors.gray.100'),
+          width: theme('spacing.6'),
+          height: theme('spacing.6'),
+        },
+      },
+    }),
+    typography: theme => ({
+        default: {
+          css: {
+            color: theme('colors.gray.600'),
+            a: {
+              color: '#0366D6',
+              '&:hover': {
+                color: '#035CC1',
+              },
+            },
+          },
+        },
+    }),
     extend: {
         colors: {
           blue: {
