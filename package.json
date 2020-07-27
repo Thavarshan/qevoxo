@@ -1,15 +1,19 @@
 {
   "name": "qevoxo",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.2.0",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.0.0-beta.6",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "firebase": "^7.17.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuefire": "^2.2.3"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
