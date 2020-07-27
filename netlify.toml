@@ -1,5 +1,5 @@
 [build]
-  command = "cp .env.example .env && npm run build"
+  command = "npm run build"
   publish = "dist"
 
 [[redirects]]
