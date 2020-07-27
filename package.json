@@ -12,6 +12,11 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "moment": "^2.26.0",
+    "tailwindcss": "^1.5",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",

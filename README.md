@@ -1,5 +1,7 @@
 # qevoxo
 
+Project work in progress.
+
 ## Project setup
 ```
 npm install
