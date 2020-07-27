@@ -1,0 +1,64 @@
+.btn {
+    @apply .inline-block;
+    @apply .px-4;
+    @apply .py-0;
+    @apply .leading-10;
+    @apply .whitespace-no-wrap;
+    @apply .rounded-lg;
+    @apply .text-center;
+    @apply .text-sm;
+    @apply .font-medium;
+    @apply .transition;
+    @apply .ease-in-out;
+    @apply .duration-150;
+    @apply .shadow;
+}
+
+.btn:focus {
+    @apply .outline-none;
+    @apply .shadow-outline;
+}
+
+.btn.btn-primary {
+    @apply .bg-blue-500;
+    @apply .text-white;
+}
+
+.btn.btn-primary:hover {
+    @apply .bg-blue-600;
+    @apply .text-white;
+}
+
+.btn.btn-primary:focus {
+    @apply .bg-blue-600;
+    @apply .text-white;
+}
+
+.btn.btn-secondary {
+    @apply .bg-white;
+    @apply .text-gray-600;
+    @apply .shadow;
+}
+
+.btn.btn-secondary:hover {
+    @apply .text-gray-700;
+}
+
+.btn.btn-secondary:focus {
+    @apply .text-gray-700;
+}
+
+.btn.btn-danger {
+    @apply .bg-red-500;
+    @apply .text-white;
+}
+
+.btn.btn-danger:hover {
+    @apply .bg-red-600;
+    @apply .text-white;
+}
+
+.btn.btn-danger:focus {
+    @apply .bg-red-600;
+    @apply .text-white;
+}

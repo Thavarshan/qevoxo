@@ -3,7 +3,7 @@ module.exports = {
         config
         .plugin('html')
         .tap(args => {
-            args[0].title = 'Thavarshan | Personal Portfolio'
+            args[0].title = 'Qevoxo | Web Walkie Talkie'
             return args
         })
     }
