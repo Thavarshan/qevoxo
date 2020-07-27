@@ -79,6 +79,8 @@
                 }
 
                 this.loading = false;
+
+                location.reload();
             },
         }
     }

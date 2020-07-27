@@ -24,8 +24,8 @@
                             <div class="flex items-start justify-between">
                                 <span class="text-xs font-semibold text-gray-500">Channel ID</span>
 
-                                <router-link class="text-sm text-blue-400" :to="{ name: 'chat', params: { id: chat.id } }">
-                                    <span>Join</span> <span class="ml-2">&rarr;</span>
+                                <router-link class="text-sm text-blue-400 inline-flex items-center" :to="{ name: 'chat', params: { id: chat.id } }">
+                                    <span>Join</span> <span class="ml-1">&rarr;</span>
                                 </router-link>
                             </div>
 
