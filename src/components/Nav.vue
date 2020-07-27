@@ -1,5 +1,5 @@
 <template>
-    <nav class="h-16 flex items-center bg-gray-800">
+    <nav class="h-16 flex items-center bg-gray-900">
         <div class="container mx-auto px-6">
             <div class="flex items-center justify-between">
                 <a href="/" class="block">
@@ -24,6 +24,8 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="mt-3 h-px w-full border-b border-gray-800"></div>
         </div>
     </nav>
 </template>

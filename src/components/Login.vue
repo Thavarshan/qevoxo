@@ -1,7 +1,7 @@
 <template>
     <div class="grid grid-rows-1 grid-cols-12">
         <div class="col-span-12 sm:col-span-10 md:col-span-7 lg:col-span-5 xl:col-span-4">
-            <div class="mt-10">
+            <div>
                 <h3 class="text-white text-3xl font-bold">{{ newUser ? 'Create an account' : 'Sign in' }}</h3>
 
                 <h6 class="text-gray-500">Let's get you up and running with a private channel.</h6>
@@ -31,7 +31,9 @@
                 <div class="mt-8">
                     <div class="flex items-center">
                         <button @click="signInOrCreateUser()" class="btn btn-primary inline-flex items-center">
-                            <i v-if="loading" class="fas fa-spinner mr-2 fa-pulse"></i>
+                            <span v-show="loading" class="mr-2">
+                                <i class="fas fa-spinner fa-pulse"></i>
+                            </span>
 
                             <span>
                                 {{ newUser ? 'Create account' : 'Sign in' }} <span class="ml-1">&rarr;</span>

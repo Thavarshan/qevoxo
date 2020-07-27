@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16">
+    <section class="py-6">
         <div class="container mx-auto px-6">
             <User v-slot:user="{ user }">
                 <UserProfile v-if="user" :user="user" />
